@@ -1,0 +1,236 @@
+body{
+    margin: 0px;
+    .nav-color{
+        background-color: #18191b ;
+        position: fixed;
+        z-index: 100;
+        nav{
+            font-weight: 500;
+            .nav-item{
+                margin: 0px 10px;
+            }
+            .nav-btn{
+                background-color: #333;
+                border-radius:4px ;
+                color:white;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+            }
+        }
+    }
+    .sec-nav{
+        padding-top: 56px;
+    }
+    .be-you{
+        margin-top: 68px;
+        .be-diff{
+            .div{
+                width: 80%;
+                margin: 10px auto;
+                p{
+                    line-height: 28px;
+                    margin-bottom: 20px;
+                }
+                .read-more{
+                    background-image: none;
+                    background-color: #18191b ;
+                    color: white;
+                    padding: .375rem 1.75rem;
+                    font-weight: 500;
+                }
+            }
+        }
+        
+    }
+    .services{
+        margin-top: 68px;
+        margin-bottom: 36px;
+        .heading{
+            font-size: 3em;
+            color: #333;
+            letter-spacing: 2px;
+            font-weight: 400;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 0.5em;
+        }
+        .service-card{
+            a{
+                &:hover{
+                    text-decoration: none;
+                }
+                .img-name{
+                    background-color: black;
+                    color: white;
+                    padding: 6px 0px;
+                    border-bottom-left-radius: 2px;
+                    border-bottom-right-radius: 2px;
+                    h3{
+                        font-weight: 400;
+                        text-align: center;
+                        font-size: 1.55rem;  
+                        margin-bottom: 0px;       
+                    }
+                    
+                }
+            }
+            p{
+                text-align: center;
+                font-weight: 500;
+                font-size: 16px;
+                margin: 26px auto;
+            }
+        }
+    }
+    .team{
+        margin-top: 68px;
+        margin-bottom: 36px;
+        .heading{
+            font-size: 3em;
+            color: #333;
+            letter-spacing: 2px;
+            font-weight: 400;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 0.5em;
+        }
+        .team-card{
+            text-align: center;
+            h3{
+                font-size: 22px;
+                font-weight: 500;
+                letter-spacing: 2px;
+                margin-top: 12px;
+            }
+            h5{
+                font-size: 20px;
+                font-weight: 400;
+                letter-spacing: 3px;
+            }
+        }
+    }
+    .projects{
+        margin-top: 68px;
+        margin-bottom: 36px;
+        .heading{
+            font-size: 3em;
+            color: #333;
+            letter-spacing: 2px;
+            font-weight: 400;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 0.5em;
+        }
+        .projects-card{
+            img{
+                border: 6px solid #ddf1f1;
+            }
+        }
+    }
+    .testimonial{
+        margin-top: 68px;
+        margin-bottom: 36px;
+        background-color: black;
+        .heading{
+            font-size: 3em;
+            color: white;
+            letter-spacing: 2px;
+            font-weight: 400;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 0.5em;
+        }
+    }
+    .contactContainer-fluid{
+        padding: 0;
+        background:  #141414;
+        .contactContainer{
+            h1{
+                font-size: 28px;
+                font-weight: 400;
+                color: white;
+                letter-spacing: 1px;
+            }
+            .contactRow{
+                padding-top: 20px;
+                .contactInfo{
+                    i{
+                        color: #ffffff;
+                        font-size: 12px;
+                    }
+                    h4{
+                        color: #ffa41f;
+                    }
+                    .contact{
+                        margin-top: 20px;
+                    }
+                    h3{
+                        font-size: 14px;
+                        color: #ffffff;
+                        letter-spacing: 1px;
+                        margin-top: 6px;
+                    }
+                    p{
+                        letter-spacing: 1.2px;
+                        color: #928c8c;
+                    }
+                }
+                .form{
+                    h4{
+                        color: #ffa41f;
+                    }
+                    .input{
+                        margin-top: 10px;
+                        input{
+                            width: 46%;
+                            margin-right: 6px;
+                            padding: 10px 0 10px 8px;
+                            font-size: 14px;
+                            outline: none;
+                        }
+                    }
+                    textarea{
+                        width: 94%;
+                        padding: 6px 0 70px 8px;
+                        font-size: 14px;
+                        margin-top: 10px;
+                        outline: none;
+                    }
+                    .button{
+                        input{
+                            font-weight: bold;
+                            padding: 14px 0;
+                            width: 45%;
+                            margin: 16px 0 16px 7px;
+                            font-size: 12px;
+                            background-color: black;
+                            color: #ffffff;
+                            letter-spacing: 1.3px;
+                            border: none;
+                            outline: none;
+                            &:hover{
+                                background-color: #ffa41f;
+                                color: black;
+                                transition: 0.8s;
+                            }
+                        }
+                    }
+                }
+            }
+            .design{
+                padding: 20px;
+                margin-top: 40px;
+                h4{
+                    color: white;
+                    text-align: center;
+                    letter-spacing: 1.5px;
+                    font-weight: 400;
+                    a{
+                        color: #ffa41f;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

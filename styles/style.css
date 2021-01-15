@@ -1,0 +1,262 @@
+body {
+  margin: 0px;
+}
+
+body .nav-color {
+  background-color: #18191b;
+  position: fixed;
+  z-index: 100;
+}
+
+body .nav-color nav {
+  font-weight: 500;
+}
+
+body .nav-color nav .nav-item {
+  margin: 0px 10px;
+}
+
+body .nav-color nav .nav-btn {
+  background-color: #333;
+  border-radius: 4px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+body .sec-nav {
+  padding-top: 56px;
+}
+
+body .be-you {
+  margin-top: 68px;
+}
+
+body .be-you .be-diff .div {
+  width: 80%;
+  margin: 10px auto;
+}
+
+body .be-you .be-diff .div p {
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+body .be-you .be-diff .div .read-more {
+  background-image: none;
+  background-color: #18191b;
+  color: white;
+  padding: .375rem 1.75rem;
+  font-weight: 500;
+}
+
+body .services {
+  margin-top: 68px;
+  margin-bottom: 36px;
+}
+
+body .services .heading {
+  font-size: 3em;
+  color: #333;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+body .services .service-card a:hover {
+  text-decoration: none;
+}
+
+body .services .service-card a .img-name {
+  background-color: black;
+  color: white;
+  padding: 6px 0px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+body .services .service-card a .img-name h3 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.55rem;
+  margin-bottom: 0px;
+}
+
+body .services .service-card p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 26px auto;
+}
+
+body .team {
+  margin-top: 68px;
+  margin-bottom: 36px;
+}
+
+body .team .heading {
+  font-size: 3em;
+  color: #333;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+body .team .team-card {
+  text-align: center;
+}
+
+body .team .team-card h3 {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 12px;
+}
+
+body .team .team-card h5 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+body .projects {
+  margin-top: 68px;
+  margin-bottom: 36px;
+}
+
+body .projects .heading {
+  font-size: 3em;
+  color: #333;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+body .projects .projects-card img {
+  border: 6px solid #ddf1f1;
+}
+
+body .testimonial {
+  margin-top: 68px;
+  margin-bottom: 36px;
+  background-color: black;
+}
+
+body .testimonial .heading {
+  font-size: 3em;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+body .contactContainer-fluid {
+  padding: 0;
+  background: #141414;
+}
+
+body .contactContainer-fluid .contactContainer h1 {
+  font-size: 28px;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 1px;
+}
+
+body .contactContainer-fluid .contactContainer .contactRow {
+  padding-top: 20px;
+}
+
+body .contactContainer-fluid .contactContainer .contactRow .contactInfo i {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+body .contactContainer-fluid .contactContainer .contactRow .contactInfo h4 {
+  color: #ffa41f;
+}
+
+body .contactContainer-fluid .contactContainer .contactRow .contactInfo .contact {
+  margin-top: 20px;
+}
+
+body .contactContainer-fluid .contactContainer .contactRow .contactInfo h3 {
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  margin-top: 6px;
+}
+
+body .contactContainer-fluid .contactContainer .contactRow .contactInfo p {
+  letter-spacing: 1.2px;
+  color: #928c8c;
+}
+
+body .contactContainer-fluid .contactContainer .contactRow .form h4 {
+  color: #ffa41f;
+}
+
+body .contactContainer-fluid .contactContainer .contactRow .form .input {
+  margin-top: 10px;
+}
+
+body .contactContainer-fluid .contactContainer .contactRow .form .input input {
+  width: 46%;
+  margin-right: 6px;
+  padding: 10px 0 10px 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+body .contactContainer-fluid .contactContainer .contactRow .form textarea {
+  width: 94%;
+  padding: 6px 0 70px 8px;
+  font-size: 14px;
+  margin-top: 10px;
+  outline: none;
+}
+
+body .contactContainer-fluid .contactContainer .contactRow .form .button input {
+  font-weight: bold;
+  padding: 14px 0;
+  width: 45%;
+  margin: 16px 0 16px 7px;
+  font-size: 12px;
+  background-color: black;
+  color: #ffffff;
+  letter-spacing: 1.3px;
+  border: none;
+  outline: none;
+}
+
+body .contactContainer-fluid .contactContainer .contactRow .form .button input:hover {
+  background-color: #ffa41f;
+  color: black;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+body .contactContainer-fluid .contactContainer .design {
+  padding: 20px;
+  margin-top: 40px;
+}
+
+body .contactContainer-fluid .contactContainer .design h4 {
+  color: white;
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+}
+
+body .contactContainer-fluid .contactContainer .design h4 a {
+  color: #ffa41f;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
